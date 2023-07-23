@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<head>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous"/>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+</head>
+<style>
+    .bg-container{
+        background-color: antiquewhite;
+        height: 100vh;
+        width: 100vw;
+        margin-left: 400px;
+       margin-bottom: 300px;
+       margin-right: 500px;
+    }
+    .active{
+       margin-left: 400px;
+       margin-bottom: 300px;
+       margin-right: 500px;
+       background-color: white;
+       border-radius: 8px;
+    }
+    .matter{
+        padding: 20px;
+    }
+    .ac-img{
+        border-top-left-radius: 8px;
+        border-bottom-left-radius: 8px;
+    }
+    .cat{
+        color: gray;
+        font-family: monospace;
+    }
+    .main-head{
+        font-family: fantasy;
+        font-size: 30px;
+    }
+    .price-main{
+       font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+       font-weight: bold;
+       color: rgb(7, 107, 29);
+    }
+    .cat1{
+        color: grey;
+        font-family: monospace;
+        text-decoration: line-through;
+    }
+    .button{
+        background-color: darkgreen;
+        color: white;
+        height: 40px;
+        width: 200px;
+        border-width: 0px;
+        border-radius: 8px;
+        font-family: Bree serif;
+    }
+</style>
+<html>
+    <body bgcolor="antiquewhite">
+   <div class="bg-container">
+      <div class="active">
+        <div class="total d-flex flex-column">
+          <img src="C:\Users\Lenovo\Desktop\frontend mentor\product-preview-card-component-main\product-preview-card-component-main\images\image-product-desktop.jpg" class="ac-img" height="300pxpx" width="400px">
+          <div class="matter d-flex flex-column">
+            <h1 class="cat">PERFUME</h1>
+            <h1 class="main-head">Gabrielle Essence Eau De Parfum</h1>
+            <p class="cat">A floral, solar and voluptuos interpretation composed by Oliver polge,Perfumer-crateor for the house of CHANEL</p>
+            <div class="price d-flex flex-row">
+              <h1 class="price-main">$149.99</h1>
+              <p class="cat1">$169.99</p>
+            </div>
+            <button class="button">Add to Cart</button>
+        </div>
+        </div>
+      </div>
+   </div>
+   </body>
+</html>
